@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ---
 
 # 🧾 Accounting Ledger Application
@@ -238,3 +239,5 @@ This tiny but clever line keeps all debits consistent, prevents accounting error
 
 ---
 
+=======
+>>>>>>> 4dd42d2c2e3e26c00449844fc85b9a1b61479d8e
