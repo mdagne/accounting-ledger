@@ -43,7 +43,7 @@ public class TransactionFileManager {
         return transactions;
     }
 
-    // Add a transaction to CSV safely, write header if file doesn't existhg
+    // Add a transaction to CSV safely, write header if file doesn't exist
     public static void addTransaction(Transaction transaction) {
         File file = new File(FILE_PATH);
         boolean writeHeader = !file.exists(); // write header if file is new
