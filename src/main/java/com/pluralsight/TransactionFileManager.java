@@ -43,7 +43,7 @@ public class TransactionFileManager {
         return transactions;
     }
 
-    // Add transaction
+    // Add a transaction
     public static void addTransaction(Transaction transaction) {
         File file = new File(FILE_PATH);
         boolean writeHeader = !file.exists(); // write header if file is new

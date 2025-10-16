@@ -7,7 +7,7 @@ public class Transaction {
     private String vendor;
     private double amount;
 
-    // Constructor
+    // Constructors
     public Transaction(String date, String time, String description, String vendor, double amount) {
         this.date = date;
         this.time = time;
